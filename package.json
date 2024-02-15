@@ -1,0 +1,17 @@
+{
+  "name": "etl",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "fast-csv": "^5.0.0",
+    "fs-extra": "^11.2.0",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "prettier": "^3.2.5",
+    "ts-node": "^10.9.2"
+  }
+}
